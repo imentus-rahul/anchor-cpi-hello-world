@@ -1,0 +1,47 @@
+Initialize {
+    puppet: Account {
+        account: Data {
+            data: 0,
+            authority: EpzLNc2fCxDVDE6mx8S6aX8VFTokM3xxD924kvXNAZ8x,
+        },
+        info: AccountInfo {
+            key: GxfzaHA9A8XPRoXEqRhWBYtq9WoWj1Bo5XazQ9atMjcG,
+            owner: Dz3AEzB6PvDCtGrETS1miAAWob8AqGUT7WJkQYm9d6ps,
+            is_signer: true,
+            is_writable: true,
+            executable: false,
+            rent_epoch: 0,
+            lamports: 1224960,
+            data.len: 48,
+            data: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+            ..
+        },
+    },
+    user: Signer {
+        info: AccountInfo {
+            key: GruSFAjP7gtmJ9k3SBAiCrMXyUByGJKR885MhKWM9KJD,
+            owner: 11111111111111111111111111111111,
+            is_signer: true,
+            is_writable: true,
+            executable: false,
+            rent_epoch: 0,
+            lamports: 499999993300496960,
+            data.len: 0,
+            ..
+        },
+    },
+    system_program: Program {
+        info: AccountInfo {
+            key: 11111111111111111111111111111111,
+            owner: NativeLoader1111111111111111111111111111111,
+            is_signer: false,
+            is_writable: false,
+            executable: true,
+            rent_epoch: 0,
+            lamports: 1,
+            data.len: 14,
+            data: 73797374656d5f70726f6772616d,
+            ..
+        },
+    },
+}

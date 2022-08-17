@@ -1,0 +1,33 @@
+SetData {
+    puppet: Account {
+        account: Data {
+            data: 42,
+            authority: GqknxVNPV5eG7xJe6s9PztWxTCFbbQkj1h6xqT2WwFmx,
+        },
+        info: AccountInfo {
+            key: xJnshG27PbELy2v1gbCF1LZoZ8QPrHfDHdqUpxwoZ8U,
+            owner: Dz3AEzB6PvDCtGrETS1miAAWob8AqGUT7WJkQYm9d6ps,
+            is_signer: false,
+            is_writable: true,
+            executable: false,
+            rent_epoch: 0,
+            lamports: 1224960,
+            data.len: 48,
+            data: ce9c3bbc124ff0e80000000000000000eb5cb2eb8f6cfc0bf13ac3f93e620856a5c1959d85a0bb99e054ffc3cabe0a87,
+            ..
+        },
+    },
+    authority: Signer {
+        info: AccountInfo {
+            key: GqknxVNPV5eG7xJe6s9PztWxTCFbbQkj1h6xqT2WwFmx,
+            owner: 11111111111111111111111111111111,
+            is_signer: true,
+            is_writable: false,
+            executable: false,
+            rent_epoch: 0,
+            lamports: 0,
+            data.len: 0,
+            ..
+        },
+    },
+}

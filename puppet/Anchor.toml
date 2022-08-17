@@ -1,0 +1,17 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+puppet = "Dz3AEzB6PvDCtGrETS1miAAWob8AqGUT7WJkQYm9d6ps"
+puppet_master = "CChSa4393WhYyRioBchtAaJvEBnuPA9PyeepEiqrbKpM"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/imentus/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
